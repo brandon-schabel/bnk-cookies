@@ -1,6 +1,6 @@
 {
     "name": "@bnk/cookies",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "cookies.ts",
     "types": "cookies.ts",
     "devDependencies": {
@@ -10,5 +10,9 @@
         "test": "bun test",
         "prepublishOnly": "bun test",
         "publish:cookies": "bun publish --access public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brandon-schabel/bnk-cookies.git"
     }
 }
